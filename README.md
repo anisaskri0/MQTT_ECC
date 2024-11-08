@@ -17,3 +17,10 @@ Python 3.x
 paho-mqtt - MQTT library for Python.
 
 pycryptodome - Python library for cryptographic operations like AES and ECC.
+
+
+STEPS : 
+1/ install the dependencies mentionned 
+2/ generate pair keys for both client and server 
+3/ run mosquitto
+4/ start by running server side , forwarded by client side.
