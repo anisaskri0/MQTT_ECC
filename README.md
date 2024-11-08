@@ -4,10 +4,16 @@ This project implements secure communication for MQTT clients using Elliptic Cur
 Features
 
 Elliptic Curve Cryptography (ECC) for secure key exchange.
+
 AES Encryption to encrypt messages, ensuring confidentiality.
+
 MQTT Integration for secure message exchange over MQTT.
+
 Real-time decryption of messages using a shared secret derived from ECC key exchange.
+
 Requirements
 Python 3.x
+
 paho-mqtt - MQTT library for Python.
+
 pycryptodome - Python library for cryptographic operations like AES and ECC.
